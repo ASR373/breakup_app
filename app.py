@@ -9,7 +9,7 @@ from ml import ml
 def main():
 		
 	st.write("# Breakup Predictor")
-	img = Image.open("images/home.jpg")
+	img = Image.open("home.jpg")
 	st.image(img)
 
 	ml()
