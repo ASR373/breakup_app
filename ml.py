@@ -59,7 +59,7 @@ def ml():
 	st.write("")
 	st.write("")
 
-	col1, col2, col3 = st.beta_columns([1,1,1])
+	col1, col2, col3 = st.columns([1,1,1])
 
 	if col2.button("Submit"):
 
