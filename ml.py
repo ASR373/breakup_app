@@ -78,7 +78,7 @@ def ml():
 
 			if prediction == 1:
 				st.success("Your relationship status is healthy. 💖💪🏻")
-				img1 = Image.open("images/positive.jpg")
+				img1 = Image.open("positive.jpg")
 				st.image(img1)
 				prob_score = {"positive": prob[0][1],
 				"negative": prob[0][0]}
@@ -94,7 +94,7 @@ def ml():
 
 			else:
 				st.warning("Your relationship is toxic. 💀☣️")
-				img2 = Image.open("images/negative.jpg")
+				img2 = Image.open("negative.jpg")
 				st.image(img2)
 				prob_score = {"Negative": prob[0][0],
 				"Positive": prob[0][1]}
