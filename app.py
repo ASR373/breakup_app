@@ -6,7 +6,7 @@ from PIL import Image
 # importingthe files
 from ml import ml
 
-img3 = Image.open("png.jpg")
+img3 = Image.open("png.png")
 st.set_page_config(page_title = "Breakup Predictor", page_icon = img3)
 def main():
 		
